@@ -1,0 +1,69 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Falk Elvedal Bruskeland'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A personal website about me"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+showFooter = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi! 👋'
+homeIntroContent = """
+I'm a 3rd year Computer Science student at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) in Trondheim. I'm interested in various topics, including algorithms, parallel computing, operating systems, and developer tooling.
+"""
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "gmail"
+url = "mailto:falk.bruskeland@gmail.com"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/falbru/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/falbru"
+
+[[params.social]]
+name = "instagram"
+url = "https://www.instagram.com/falk_bruskeland/"
+
+# Main menu pages
+[[params.menu]]
+name = "Home"
+url = "/"
+
+[[params.menu]]
+name = "Posts"
+url = "/posts"
+
+[[params.menu]]
+name = "CV"
+url = "/cv"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
