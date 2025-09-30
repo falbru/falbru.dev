@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://falbru.dev/'
 languageCode = 'en-us'
 title = 'Falk Elvedal Bruskeland'
 theme = 'typo'
@@ -17,9 +17,12 @@ hideHeader = false
 showFooter = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hi! 👋'
 homeIntroContent = """
-I'm a 3rd year Computer Science student at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) in Trondheim. I'm interested in various topics, including algorithms, parallel computing, operating systems, and developer tooling.
+Hi! I'm Falk.
+
+I'm a 4th year Computer Science student at the [Norwegian University of Science and Technology](https://www.ntnu.edu/studies/mtdt) in Trondheim, specializing in Visual Computing.
+
+I'm interested in various topics, including algorithms, parallel computing, operating systems, and developer tooling.
 """
 
 # Lists parameters
@@ -56,12 +59,8 @@ name = "Home"
 url = "/"
 
 [[params.menu]]
-name = "Posts"
-url = "/posts"
-
-[[params.menu]]
 name = "CV"
-url = "/cv"
+url = "/cv.pdf"
 
 # Syntax highlight on code blocks
 [markup]
