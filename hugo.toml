@@ -1,4 +1,4 @@
-baseURL = 'https://falbru.dev/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Falk Elvedal Bruskeland'
 theme = 'typo'
