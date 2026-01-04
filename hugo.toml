@@ -59,6 +59,10 @@ name = "Home"
 url = "/"
 
 [[params.menu]]
+name = "Posts"
+url = "/posts"
+
+[[params.menu]]
 name = "CV"
 url = "https://public.falbru.dev/cv.pdf"
 
