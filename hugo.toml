@@ -60,7 +60,7 @@ url = "/"
 
 [[params.menu]]
 name = "CV"
-url = "/cv.pdf"
+url = "https://public.falbru.dev/cv.pdf"
 
 # Syntax highlight on code blocks
 [markup]
