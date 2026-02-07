@@ -18,11 +18,11 @@ showFooter = false
 
 # Intro on main page, content is markdown
 homeIntroContent = """
-Hi! I'm Falk.
+Hi! 👋 I'm Falk.
 
-I'm a 4th year Computer Science student at the [Norwegian University of Science and Technology](https://www.ntnu.edu/studies/mtdt) in Trondheim, specializing in Visual Computing.
+I'm a 4th year Computer Science student at the [Norwegian University of Science and Technology](https://www.ntnu.edu/studies/mtdt) in Trondheim, specializing in Visual Computing. Currently, I'm doing an exchange semester at [Pusan National University](https://www.pusan.ac.kr/kor/intro.do) in Busan, South Korea. 🇰🇷
 
-I'm interested in various topics, including algorithms, parallel computing, operating systems, and developer tooling.
+I love building things. Most of my experience is in web and full-stack development, but I also work with C++. Right now I'm building [Kakodemon](https://github.com/falbru/kakodemon), a GUI frontend for Kakoune using C++ and OpenGL.
 """
 
 # Lists parameters
@@ -55,11 +55,11 @@ url = "https://www.instagram.com/falk_bruskeland/"
 
 # Main menu pages
 [[params.menu]]
-name = "Home"
+name = "home"
 url = "/"
 
 [[params.menu]]
-name = "CV"
+name = "cv"
 url = "https://public.falbru.dev/cv.pdf"
 
 # Syntax highlight on code blocks
