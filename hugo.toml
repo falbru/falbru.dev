@@ -58,10 +58,6 @@ url = "https://www.instagram.com/falk_bruskeland/"
 name = "home"
 url = "/"
 
-[[params.menu]]
-name = "cv"
-url = "https://public.falbru.dev/cv.pdf"
-
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
